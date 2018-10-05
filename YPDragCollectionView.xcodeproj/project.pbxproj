@@ -10,11 +10,13 @@
 		78ED50AD21678272001B7FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50AC21678272001B7FCA /* AppDelegate.m */; };
 		78ED50B021678272001B7FCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50AF21678272001B7FCA /* ViewController.m */; };
 		78ED50B321678272001B7FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50B121678272001B7FCA /* Main.storyboard */; };
-		78ED50B521678273001B7FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50B421678273001B7FCA /* Assets.xcassets */; };
 		78ED50B821678273001B7FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50B621678273001B7FCA /* LaunchScreen.storyboard */; };
 		78ED50BB21678273001B7FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50BA21678273001B7FCA /* main.m */; };
 		78ED50C521678273001B7FCA /* YPDragCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50C421678273001B7FCA /* YPDragCollectionViewTests.m */; };
 		78ED50D021678273001B7FCA /* YPDragCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50CF21678273001B7FCA /* YPDragCollectionViewUITests.m */; };
+		78ED50E2216782AD001B7FCA /* YPDragCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50DE216782AC001B7FCA /* YPDragCollectionView.m */; };
+		78ED50E3216782AD001B7FCA /* YPDragCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50E1216782AC001B7FCA /* YPDragCollectionViewCell.m */; };
+		78ED50E521678374001B7FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50E421678374001B7FCA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,6 @@
 		78ED50AE21678272001B7FCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		78ED50AF21678272001B7FCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78ED50B221678272001B7FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		78ED50B421678273001B7FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78ED50B721678273001B7FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78ED50B921678273001B7FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78ED50BA21678273001B7FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		78ED50CB21678273001B7FCA /* YPDragCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPDragCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78ED50CF21678273001B7FCA /* YPDragCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPDragCollectionViewUITests.m; sourceTree = "<group>"; };
 		78ED50D121678273001B7FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78ED50DE216782AC001B7FCA /* YPDragCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPDragCollectionView.m; sourceTree = "<group>"; };
+		78ED50DF216782AC001B7FCA /* YPDragCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPDragCollectionViewCell.h; sourceTree = "<group>"; };
+		78ED50E0216782AC001B7FCA /* YPDragCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPDragCollectionView.h; sourceTree = "<group>"; };
+		78ED50E1216782AC001B7FCA /* YPDragCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPDragCollectionViewCell.m; sourceTree = "<group>"; };
+		78ED50E421678374001B7FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +107,14 @@
 		78ED50AA21678272001B7FCA /* YPDragCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				78ED50DD216782AC001B7FCA /* YPDragCollectionView */,
 				78ED50AB21678272001B7FCA /* AppDelegate.h */,
 				78ED50AC21678272001B7FCA /* AppDelegate.m */,
 				78ED50AE21678272001B7FCA /* ViewController.h */,
 				78ED50AF21678272001B7FCA /* ViewController.m */,
 				78ED50B121678272001B7FCA /* Main.storyboard */,
-				78ED50B421678273001B7FCA /* Assets.xcassets */,
 				78ED50B621678273001B7FCA /* LaunchScreen.storyboard */,
+				78ED50E421678374001B7FCA /* Assets.xcassets */,
 				78ED50B921678273001B7FCA /* Info.plist */,
 				78ED50BA21678273001B7FCA /* main.m */,
 			);
@@ -130,6 +137,17 @@
 				78ED50D121678273001B7FCA /* Info.plist */,
 			);
 			path = YPDragCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		78ED50DD216782AC001B7FCA /* YPDragCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				78ED50DE216782AC001B7FCA /* YPDragCollectionView.m */,
+				78ED50DF216782AC001B7FCA /* YPDragCollectionViewCell.h */,
+				78ED50E0216782AC001B7FCA /* YPDragCollectionView.h */,
+				78ED50E1216782AC001B7FCA /* YPDragCollectionViewCell.m */,
+			);
+			path = YPDragCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78ED50B821678273001B7FCA /* LaunchScreen.storyboard in Resources */,
-				78ED50B521678273001B7FCA /* Assets.xcassets in Resources */,
+				78ED50E521678374001B7FCA /* Assets.xcassets in Resources */,
 				78ED50B321678272001B7FCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +282,9 @@
 			files = (
 				78ED50B021678272001B7FCA /* ViewController.m in Sources */,
 				78ED50BB21678273001B7FCA /* main.m in Sources */,
+				78ED50E3216782AD001B7FCA /* YPDragCollectionViewCell.m in Sources */,
 				78ED50AD21678272001B7FCA /* AppDelegate.m in Sources */,
+				78ED50E2216782AD001B7FCA /* YPDragCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
