@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78ED50AD21678272001B7FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50AC21678272001B7FCA /* AppDelegate.m */; };
+		78ED50B021678272001B7FCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50AF21678272001B7FCA /* ViewController.m */; };
+		78ED50B321678272001B7FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50B121678272001B7FCA /* Main.storyboard */; };
+		78ED50B521678273001B7FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50B421678273001B7FCA /* Assets.xcassets */; };
+		78ED50B821678273001B7FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ED50B621678273001B7FCA /* LaunchScreen.storyboard */; };
+		78ED50BB21678273001B7FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50BA21678273001B7FCA /* main.m */; };
+		78ED50C521678273001B7FCA /* YPDragCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50C421678273001B7FCA /* YPDragCollectionViewTests.m */; };
+		78ED50D021678273001B7FCA /* YPDragCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ED50CF21678273001B7FCA /* YPDragCollectionViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78ED50C121678273001B7FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78ED50A021678272001B7FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78ED50A721678272001B7FCA;
+			remoteInfo = YPDragCollectionView;
+		};
+		78ED50CC21678273001B7FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78ED50A021678272001B7FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78ED50A721678272001B7FCA;
+			remoteInfo = YPDragCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78ED50A821678272001B7FCA /* YPDragCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPDragCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ED50AB21678272001B7FCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78ED50AC21678272001B7FCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78ED50AE21678272001B7FCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78ED50AF21678272001B7FCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78ED50B221678272001B7FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78ED50B421678273001B7FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78ED50B721678273001B7FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78ED50B921678273001B7FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78ED50BA21678273001B7FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78ED50C021678273001B7FCA /* YPDragCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPDragCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ED50C421678273001B7FCA /* YPDragCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPDragCollectionViewTests.m; sourceTree = "<group>"; };
+		78ED50C621678273001B7FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78ED50CB21678273001B7FCA /* YPDragCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPDragCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ED50CF21678273001B7FCA /* YPDragCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPDragCollectionViewUITests.m; sourceTree = "<group>"; };
+		78ED50D121678273001B7FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78ED50A521678272001B7FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ED50BD21678273001B7FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ED50C821678273001B7FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78ED509F21678272001B7FCA = {
+			isa = PBXGroup;
+			children = (
+				78ED50AA21678272001B7FCA /* YPDragCollectionView */,
+				78ED50C321678273001B7FCA /* YPDragCollectionViewTests */,
+				78ED50CE21678273001B7FCA /* YPDragCollectionViewUITests */,
+				78ED50A921678272001B7FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78ED50A921678272001B7FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78ED50A821678272001B7FCA /* YPDragCollectionView.app */,
+				78ED50C021678273001B7FCA /* YPDragCollectionViewTests.xctest */,
+				78ED50CB21678273001B7FCA /* YPDragCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78ED50AA21678272001B7FCA /* YPDragCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				78ED50AB21678272001B7FCA /* AppDelegate.h */,
+				78ED50AC21678272001B7FCA /* AppDelegate.m */,
+				78ED50AE21678272001B7FCA /* ViewController.h */,
+				78ED50AF21678272001B7FCA /* ViewController.m */,
+				78ED50B121678272001B7FCA /* Main.storyboard */,
+				78ED50B421678273001B7FCA /* Assets.xcassets */,
+				78ED50B621678273001B7FCA /* LaunchScreen.storyboard */,
+				78ED50B921678273001B7FCA /* Info.plist */,
+				78ED50BA21678273001B7FCA /* main.m */,
+			);
+			path = YPDragCollectionView;
+			sourceTree = "<group>";
+		};
+		78ED50C321678273001B7FCA /* YPDragCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				78ED50C421678273001B7FCA /* YPDragCollectionViewTests.m */,
+				78ED50C621678273001B7FCA /* Info.plist */,
+			);
+			path = YPDragCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		78ED50CE21678273001B7FCA /* YPDragCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78ED50CF21678273001B7FCA /* YPDragCollectionViewUITests.m */,
+				78ED50D121678273001B7FCA /* Info.plist */,
+			);
+			path = YPDragCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78ED50A721678272001B7FCA /* YPDragCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78ED50D421678273001B7FCA /* Build configuration list for PBXNativeTarget "YPDragCollectionView" */;
+			buildPhases = (
+				78ED50A421678272001B7FCA /* Sources */,
+				78ED50A521678272001B7FCA /* Frameworks */,
+				78ED50A621678272001B7FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPDragCollectionView;
+			productName = YPDragCollectionView;
+			productReference = 78ED50A821678272001B7FCA /* YPDragCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78ED50BF21678273001B7FCA /* YPDragCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78ED50D721678273001B7FCA /* Build configuration list for PBXNativeTarget "YPDragCollectionViewTests" */;
+			buildPhases = (
+				78ED50BC21678273001B7FCA /* Sources */,
+				78ED50BD21678273001B7FCA /* Frameworks */,
+				78ED50BE21678273001B7FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78ED50C221678273001B7FCA /* PBXTargetDependency */,
+			);
+			name = YPDragCollectionViewTests;
+			productName = YPDragCollectionViewTests;
+			productReference = 78ED50C021678273001B7FCA /* YPDragCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78ED50CA21678273001B7FCA /* YPDragCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78ED50DA21678273001B7FCA /* Build configuration list for PBXNativeTarget "YPDragCollectionViewUITests" */;
+			buildPhases = (
+				78ED50C721678273001B7FCA /* Sources */,
+				78ED50C821678273001B7FCA /* Frameworks */,
+				78ED50C921678273001B7FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78ED50CD21678273001B7FCA /* PBXTargetDependency */,
+			);
+			name = YPDragCollectionViewUITests;
+			productName = YPDragCollectionViewUITests;
+			productReference = 78ED50CB21678273001B7FCA /* YPDragCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78ED50A021678272001B7FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = seek;
+				TargetAttributes = {
+					78ED50A721678272001B7FCA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					78ED50BF21678273001B7FCA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 78ED50A721678272001B7FCA;
+					};
+					78ED50CA21678273001B7FCA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 78ED50A721678272001B7FCA;
+					};
+				};
+			};
+			buildConfigurationList = 78ED50A321678272001B7FCA /* Build configuration list for PBXProject "YPDragCollectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78ED509F21678272001B7FCA;
+			productRefGroup = 78ED50A921678272001B7FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78ED50A721678272001B7FCA /* YPDragCollectionView */,
+				78ED50BF21678273001B7FCA /* YPDragCollectionViewTests */,
+				78ED50CA21678273001B7FCA /* YPDragCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78ED50A621678272001B7FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ED50B821678273001B7FCA /* LaunchScreen.storyboard in Resources */,
+				78ED50B521678273001B7FCA /* Assets.xcassets in Resources */,
+				78ED50B321678272001B7FCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ED50BE21678273001B7FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ED50C921678273001B7FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78ED50A421678272001B7FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ED50B021678272001B7FCA /* ViewController.m in Sources */,
+				78ED50BB21678273001B7FCA /* main.m in Sources */,
+				78ED50AD21678272001B7FCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ED50BC21678273001B7FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ED50C521678273001B7FCA /* YPDragCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78ED50C721678273001B7FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ED50D021678273001B7FCA /* YPDragCollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78ED50C221678273001B7FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78ED50A721678272001B7FCA /* YPDragCollectionView */;
+			targetProxy = 78ED50C121678273001B7FCA /* PBXContainerItemProxy */;
+		};
+		78ED50CD21678273001B7FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78ED50A721678272001B7FCA /* YPDragCollectionView */;
+			targetProxy = 78ED50CC21678273001B7FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78ED50B121678272001B7FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78ED50B221678272001B7FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78ED50B621678273001B7FCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78ED50B721678273001B7FCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78ED50D221678273001B7FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78ED50D321678273001B7FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78ED50D521678273001B7FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPDragCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPDragCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78ED50D621678273001B7FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPDragCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPDragCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78ED50D821678273001B7FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPDragCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPDragCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPDragCollectionView.app/YPDragCollectionView";
+			};
+			name = Debug;
+		};
+		78ED50D921678273001B7FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPDragCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPDragCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPDragCollectionView.app/YPDragCollectionView";
+			};
+			name = Release;
+		};
+		78ED50DB21678273001B7FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPDragCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPDragCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPDragCollectionView;
+			};
+			name = Debug;
+		};
+		78ED50DC21678273001B7FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPDragCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seek.YPDragCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPDragCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78ED50A321678272001B7FCA /* Build configuration list for PBXProject "YPDragCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ED50D221678273001B7FCA /* Debug */,
+				78ED50D321678273001B7FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78ED50D421678273001B7FCA /* Build configuration list for PBXNativeTarget "YPDragCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ED50D521678273001B7FCA /* Debug */,
+				78ED50D621678273001B7FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78ED50D721678273001B7FCA /* Build configuration list for PBXNativeTarget "YPDragCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ED50D821678273001B7FCA /* Debug */,
+				78ED50D921678273001B7FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78ED50DA21678273001B7FCA /* Build configuration list for PBXNativeTarget "YPDragCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ED50DB21678273001B7FCA /* Debug */,
+				78ED50DC21678273001B7FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78ED50A021678272001B7FCA /* Project object */;
+}
